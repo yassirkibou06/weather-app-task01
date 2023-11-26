@@ -13,7 +13,7 @@ const TodayHighlightsSec = ({weather: {humidity, speed, sunrise, sunset, timezon
     return (
         <>
             <h2 className='mt-10 font-bold text-xl tracking-wider'>Today's Highlights</h2>
-            <div className='my-5 grid grid-cols-3 gap-5'>
+            <div className='my-5 grid grid-cols-2 lg:grid-cols-3 gap-5'>
                 {/*** Humidity */}
                 <div className='bg-white shadow-sm rounded-xl py-7 px-5 relative'>
                     <h3 className='text-gray-300 mb-3'>Humidity</h3>

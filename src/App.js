@@ -26,7 +26,7 @@ function App() {
   //console.log(weather)
 
   return (
-    <div className="font-open-sans grid grid-cols-home h-screen">
+    <div className="font-open-sans grid grid-cols-1 lg:grid-cols-home h-screen">
       {weather && (
         <>
           <LeftSide weather={weather} setQuery={setQuery} />
